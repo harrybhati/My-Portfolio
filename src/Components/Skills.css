@@ -53,9 +53,9 @@
 }
 
 .mern-logo img {
-  width: 60px; /* Adjust size as needed */
+  width: 60px; 
   height: auto;
-  filter: none; /* Ensure no filter is applied */
+  filter: none; 
 }
 
 @media (min-width: 768px) {
@@ -69,7 +69,7 @@
     flex: 1 1 150px;
   }
 }
-/* Skills.css */
+
 
 .skills {
   padding: 40px 0;

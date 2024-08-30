@@ -1,12 +1,12 @@
 .about {
-    background-color: #f8f9fa; /* Light background for a clean look */
+    background-color: #f8f9fa; 
     padding: 60px 20px;
     text-align: center;
   }
   
   .about-container {
     display: flex;
-    flex-direction: column-reverse; /* Stack content on small screens */
+    flex-direction: column-reverse; 
     align-items: center;
     gap: 30px;
     max-width: 1200px;
@@ -42,12 +42,12 @@
     width: 100%;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
   }
   
   @media (min-width: 768px) {
     .about-container {
-      flex-direction: row; /* Align content side by side on larger screens */
+      flex-direction: row; 
       text-align: left;
     }
   
@@ -56,7 +56,7 @@
     }
   
     .about-image-wrapper {
-      flex: 0 0 250px; /* Maintain size on larger screens */
+      flex: 0 0 250px; 
     }
   }
   
