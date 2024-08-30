@@ -1,0 +1,52 @@
+.header {
+    background-color: #2c3e50; /* Darker background for a modern look */
+    color: #ecf0f1; /* Light text color for contrast */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .header-title {
+    font-size: 2.5em; /* Larger title */
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1.5px; /* Spacing for a more refined look */
+  }
+  
+  .header-subtitle {
+    font-size: 1.2em; /* Smaller subtitle */
+    margin: 10px 0 0;
+    font-weight: 300;
+    color: #bdc3c7; /* Softer color for the subtitle */
+  }
+  
+  .header-nav {
+    margin-top: 20px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    gap: 15px; /* Space between links */
+  }
+  
+  .nav-item {
+    display: inline-block;
+  }
+  
+  .nav-link {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-link:hover {
+    background-color: #34495e; /* Slightly darker on hover */
+    color: #ecf0f1; /* Keep text color consistent on hover */
+  }
+  

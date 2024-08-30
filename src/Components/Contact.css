@@ -1,0 +1,119 @@
+/* Contact.css */
+
+.contact {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+  }
+  
+  .contact-title {
+    font-size: 80px;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    
+  }
+  .contact-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem; /* Allows wrapping on smaller screens */
+  }
+  
+  .contact-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333; /* Default color for text */
+    margin: 0 1rem; /* Add horizontal spacing */
+  }
+  
+  .contact-icon img {
+    color: #000; /* Default color for icons */
+  }
+  
+  
+  
+  .contact-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333; /* Default color for text */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .contact-icon-img {
+    color: #000; /* Default color for icons */
+  }
+  
+  .contact-icon:hover .contact-icon-img {
+    color: #0073b1; /* Default hover color */
+  }
+  
+  /* Specific colors for each icon */
+  .contact-icon:nth-child(1) .contact-icon-img {
+    color: #000; /* Email color */
+  }
+  
+  .contact-icon:nth-child(1):hover .contact-icon-img {
+    color: #555; /* Hover color for email */
+  }
+  
+  .contact-icon:nth-child(2) .contact-icon-img {
+    color: #25d366; /* WhatsApp color */
+  }
+  
+  .contact-icon:nth-child(2):hover .contact-icon-img {
+    color: #1ebea5; /* Hover color for WhatsApp */
+  }
+  
+  .contact-icon:nth-child(3) .contact-icon-img {
+    color: #0077b5; /* LinkedIn color */
+  }
+  
+  .contact-icon:nth-child(3):hover .contact-icon-img {
+    color: #005582; /* Hover color for LinkedIn */
+  }
+  
+  .contact-icon:nth-child(4) .contact-icon-img {
+    color: #333; /* GitHub color */
+  }
+  
+  .contact-icon:nth-child(4):hover .contact-icon-img {
+    color: #6e5494; /* Hover color for GitHub */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .contact-icons {
+      flex-direction: column; /* Stack icons vertically on smaller screens */
+      gap: 1.5rem; /* Reduce space between icons */
+    }
+  
+    .contact-icon {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  
+    .contact-icon-img {
+      font-size: 100px; /* Adjust icon size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-title {
+      font-size: 1.5rem; /* Adjust title size for smaller screens */
+    }
+  
+    .contact-icon-img {
+      font-size: 80px; /* Further adjust icon size for very small screens */
+    }
+  }
+  

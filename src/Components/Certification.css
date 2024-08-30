@@ -1,0 +1,41 @@
+.certification {
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .certification-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .certification-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .certification-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .certification-item {
+    margin: 0.5rem 0;
+  }
+  
+  .certification-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .certification-link:hover {
+    color: #0056b3;
+  }
+  
