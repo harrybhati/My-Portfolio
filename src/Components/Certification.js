@@ -1,6 +1,6 @@
 import React from 'react';
 import './Certification.css'; // Ensure this CSS file contains the responsive styling
-import { BiFontSize } from 'react-icons/bi';
+
 
 function Certification() {
   const certifications = [

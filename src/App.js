@@ -4,7 +4,7 @@ import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
-import Certification from './Components/Certification';
+
 import './App.css';
 
 function App() {
