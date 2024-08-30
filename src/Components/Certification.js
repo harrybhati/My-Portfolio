@@ -1,17 +1,21 @@
 import React from 'react';
-import './Certification.css'; // Assuming you have a separate CSS file for the Certification section styling
+import './Certification.css'; // Ensure this CSS file contains the responsive styling
+import { BiFontSize } from 'react-icons/bi';
 
 function Certification() {
   const certifications = [
     {
-      title: 'Certification 1',
-      url: 'https://www.example.com/certification1', // Replace with the actual URL
+      title: 'CISCO-CCNA: Introduction to Networks   ',
+      },
+    {
+      title: 'PREPINSTA: Introduction to React.js , MERN Full Stack  ',
+    
     },
     {
-      title: 'Certification 2',
-      url: 'https://www.example.com/certification2', // Replace with the actual URL
-    },
-    // Add more certifications as needed
+      title: 'Geekster:  Introduction to JavaScript Fundamentals, Git and GitHub, MySQL  ',
+    
+    }
+   
   ];
 
   return (
@@ -21,9 +25,11 @@ function Certification() {
         <ul className="certification-list">
           {certifications.map((cert, index) => (
             <li key={index} className="certification-item">
-              <a href={cert.url} target="_blank" rel="noopener noreferrer" className="certification-link">
-                {cert.title}
-              </a>
+              
+                
+               
+                <strong >{cert.title}</strong>
+              
             </li>
           ))}
         </ul>

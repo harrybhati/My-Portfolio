@@ -21,13 +21,11 @@ function About() {
     <section id="about" className="about">
       <div className="about-container">
         <div className="about-content">
-          <h2 className="about-title" style={{fontSize:60}}>About Me</h2>
+          <h2 className="about-title" style={{fontSize:80}}>About Me</h2>
           <p className="about-text">
           Hi, I'm Harendra Bhati—a web developer passionate about crafting seamless digital experiences. I specialize in the MERN stack, combining front-end flair with back-end expertise. With a solid grip on HTML, CSS, JavaScript, React.js, Node.js, MongoDB, Express.js, Java, MySQL, Git, and GitHub, I bring ideas to life through clean, responsive, and user-friendly web applications.</p>
         </div>
-        <div className="about-image-wrapper">
-          <img src="path_to_profile_image" alt="Profile" className="about-profile-image" />
-        </div>
+        
       </div>
     </section>
   );
